@@ -1,0 +1,8 @@
+<p>
+  todo-list works!
+</p>
+
+<div *ngFor="let item of allTodos">
+  <!-- {{item.description}} -->
+  <app-todo-item [currentItem]="item"></app-todo-item>
+</div>

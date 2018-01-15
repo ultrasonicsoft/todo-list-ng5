@@ -1,0 +1,4 @@
+<input type="checkbox" [(ngModel)]="currentItem.isDone"> 
+<span 
+[ngStyle]="{'text-decoration':currentItem.isDone? 'line-through':'none'}">
+{{currentItem.description}}</span>
